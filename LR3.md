@@ -34,4 +34,10 @@ public class ArrayTests {
 	}
 ```
 
+![Image](test2.png)
+
+
+3. The Symptom, as the outpur of the following two tests above:
+
+
 
