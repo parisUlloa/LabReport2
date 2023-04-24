@@ -1,13 +1,13 @@
 #Lab Report 2 - Servers and Bugs
 ---
 
-##Part One:
+Part One:
 ---
 
 
 
 
-##Part Two:
+Part Two:
 ---
 Considering the first method in lab 3:
 
@@ -70,7 +70,7 @@ static void reverseInPlace(int[] arr) {
 *The code now will only take half of the loop and had the variable temp store the index of the first index in the array and have that value added in the last element in the array
 
 
-##Part Three:
+Part Three:
 ---
 
 One thing I learned from labe 2 is the whole set up itself of GitHub. I first had no clue how GitHub worked or what it was even for. Majority of the professors I have had in the past quarters Would have their own GitHub page and I as a student will easily access the code they want their students to work on. I am so fascinated about the structure of creating a resporitory and how much thought/work it takes to implement in making a new page or even the amount of detail it takes to explain one concept.
