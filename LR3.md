@@ -1,4 +1,4 @@
-#Lab Report 2 - Servers and Bugs
+Lab Report 2 - Servers and Bugs
 ---
 
 Part One:
