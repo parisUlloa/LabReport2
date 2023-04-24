@@ -3,6 +3,8 @@ Lab Report 2 - Servers and Bugs
 
 Part One:
 ---
+Created a web server called StringServer that supports the path and behavior described. It should keep track of a single string that gets added to by incoming requests. The request will be `/add-message?s=<string>`
+
 
 
 
@@ -11,6 +13,7 @@ Part Two:
 ---
 Considering the first method in lab 3:
 
+The following code is suppose to reverse a list to the proper formating of a reversed list, however an issue occurs where the last index of the array isnt updated to the first index (1,4,8 actually comes out as 8,4,8 instead of 8,4,1) For Example:
 
 1. A failure inducing input for the testReverseInPlace method:
 
