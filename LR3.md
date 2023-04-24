@@ -66,17 +66,20 @@ java StringServer 8989 \\write down any four numbers youll like
 
 5. A link will pop up and will take you to the webserver youll be implementing of the Strings
 
+![Image](url.png)
+
 
 *if I input some string after the path it will be formatted something like this:
 
 `http://localhost:8989/add-message?s=self`the path being `add-message` and the query(?) that will have `s=` which anything after will be whats printed
 which in this case is the word `self`
 
+![Image](print.png)
 
 
 *Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)): 
 
-
+![Image](full.png)
 
 
 Part Two:
