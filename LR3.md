@@ -13,7 +13,7 @@ This certain serve should be able to do the following:
 in order to sucessfully complete this:\
 1.Go to Visual Studio Code and open a file titled as "Wavlet" or a resporitory and unzip it\
 2.Create a new file and name it however youll like mine is titled "StringServer.java" (make sure it is a java file (add the .java at the end))\
-3.Code in order to succesffully print out the query will look something like this:\
+3.Code in order to succesffully print out the query will look something like this
 
 ```
 import java.io.IOException;
