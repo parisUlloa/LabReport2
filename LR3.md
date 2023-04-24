@@ -5,6 +5,76 @@ Part One:
 ---
 Created a web server called StringServer that supports the path and behavior described. It should keep track of a single string that gets added to by incoming requests. The request will be `/add-message?s=<string>`
 
+This certain serve should be able to do the following:
+![Image](contain.png)
+
+in order to sucessfully complete this:
+1.Go to Visual Studio Code and open a file titled as "Wavlet" or a resporitory and unzip it
+2.Create a new file and name it however youll like mine is titled "StringServer.java" (make sure it is a java file (add the .java at the end))
+3.Code in order to succesffully print out the query will look something like this:
+
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String text = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format(text);
+        }
+        else if (url.getPath().equals("/add-message")) {
+            String message = url.getQuery();                   \\will get the Query after the path
+            String messageQuery = message.substring(2);        \\Gets the second third index of the Query (so the string after the "=")
+            text = text + "\n" + messageQuery;               \\will print the message of previous text and a new line with the text that will be next
+            //System.out.println(text);
+            return String.format(text);        \\return the string of the text
+        } 
+        return "404 Not Found";   \\else will say it did not find it 
+    
+    }
+}
+
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+```
+
+4.Acessing the web server
+
+In the terminal use the commands of 
+
+```
+In the terminal use the commands of 
+javac StringServer.java \\use name of your file
+java StringServer 8989 \\write down any four numbers youll like
+```
+
+5. A link will pop up and will take you to the webserver youll be implementing of the Strings
+
+
+*if I input some string after the path it will be formatted something like this:
+
+`http://localhost:8989/add-message?s=self`the path being `add-message` and the query(?) that will have `s=` which anything after will be whats printed
+which in this case is the word `self`
+
+
+
+*Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)): 
 
 
 
