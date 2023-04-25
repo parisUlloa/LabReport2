@@ -56,12 +56,11 @@ class StringServer {
 
 ```
 
-4.Acessing the web server
+4. Acessing the web server
 
-In the terminal use the commands of 
+**In the terminal use the commands of 
 
 ```
-In the terminal use the commands of 
 javac StringServer.java \\use name of your file
 java StringServer 8989 \\write down any four numbers youll like
 ```
