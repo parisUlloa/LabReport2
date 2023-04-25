@@ -72,8 +72,8 @@ java StringServer 8989 \\write down any four numbers youll like
 
 **if I input some string after the path it will be formatted something like this:**
 
-`http://localhost:8989/add-message?s=self`the path being `add-message` and the query(?) that will have `s=` which anything after will be whats printed
-which in this case is the word `self`
+In the link above `http://localhost:8989/add-message?s=love` the path being `add-message` and the query(?) that will have `s=` ,which anything after will be whats printed
+which in this case is the word `love`
 
 ![Image](print.png)
 
