@@ -58,7 +58,7 @@ class StringServer {
 
 4. Acessing the web server
 
-**In the terminal use the commands of 
+**In the terminal use the commands of**
 
 ```
 javac StringServer.java \\use name of your file
@@ -70,7 +70,7 @@ java StringServer 8989 \\write down any four numbers youll like
 ![Image](url.png)
 
 
-*if I input some string after the path it will be formatted something like this:
+**if I input some string after the path it will be formatted something like this:**
 
 `http://localhost:8989/add-message?s=self`the path being `add-message` and the query(?) that will have `s=` which anything after will be whats printed
 which in this case is the word `self`
