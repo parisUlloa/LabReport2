@@ -78,7 +78,7 @@ which in this case is the word `love`
 ![Image](print.png)
 
 
-*Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)): 
+**Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)):** 
 
 ![Image](full.png)
 
