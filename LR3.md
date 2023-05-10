@@ -69,6 +69,9 @@ java StringServer 8989 \\write down any four numbers youll like
 
 ![Image](url.png)
 
+**NOTE:**
+for the screenshot above the method `handleRequest(URI url)` is being called, which has an argument of a url that 
+will allow the server to creat a web link and as you can see above the last section of the url which is `s=love` will be taking that string `love` and print it out just like the screen shot that follows:
 
 **if I input some string after the path it will be formatted something like this:**
 
@@ -80,6 +83,7 @@ which in this case is the word `love`
 
 **Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)):** 
 
+this is when the method `handleRequest` has taken the path message implemented to print out and if you continue to implement different strings it will have a new line be autimatically addes after
 ![Image](full.png)
 
 
