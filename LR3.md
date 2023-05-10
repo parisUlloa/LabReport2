@@ -83,7 +83,7 @@ which in this case is the word `love`
 
 **Once you input your a string multiple times it may print out something like this (mine prints twice lol still cant figure out why (may go to OH)):** 
 
-this is when the method `handleRequest` has taken the path message implemented to print out and if you continue to implement different strings it will have a new line be autimatically addes after
+this is when the method `handleRequest` has taken the path message implemented to print out and if you continue to implement different strings it will have a new line be autimatically added after
 ![Image](full.png)
 
 
