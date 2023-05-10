@@ -90,7 +90,7 @@ this is when the method `handleRequest` has taken the path message implemented t
 ![Image](yo.png)          **AND**        ![Image](self.png)
 
 
-**IT WILL HAVE THIS PRINT OUT ( notice how self and the following strings I implemented are all after the `s=`**
+**IT WILL HAVE THIS PRINT OUT ( notice how self and the following strings I implemented are all after the `s=`)**
 
 ![Image](full.png)
 
