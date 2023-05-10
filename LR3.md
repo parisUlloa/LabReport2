@@ -85,12 +85,12 @@ which in this case is the word `love`
 
 this is when the method `handleRequest` has taken the path message implemented to print out and if you continue to implement different strings it will have a new line be autimatically added after
 
-FOR EXAMPLE: if I implement this in the url
+**FOR EXAMPLE: if I implement this in the url**
 
-![Image](yo.png)  AND. ![Image](self.png)
+![Image](yo.png)          **AND**        ![Image](self.png)
 
 
-IT WILL HAVE THIS PRINT OUT
+**IT WILL HAVE THIS PRINT OUT**
 
 ![Image](full.png)
 
